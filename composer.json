@@ -1,0 +1,17 @@
+{
+    "name": "bafs/illuminate-demacroable",
+    "description": "The Demacroable package, to remove monkey patching from your codebase.",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Illuminate\\Support\\": ""
+        }
+    },
+    "replace": {
+        "illuminate/macroable": "*"
+    },
+    "minimum-stability": "dev"
+}
